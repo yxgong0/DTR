@@ -17,7 +17,7 @@ Please convert your own training dataset to LMDB format. The testing images shou
 
 img_001.png, "word"
 
-Each line should end with '\n'. You can also use the data provided by us, which is provided in the test_data folder.
+Each line should end with '\n'. You can also use the data provided by us from https://pan.baidu.com/s/10NHaiJaRO1TpMON-OgcPFQ, which should be contained in the test_data folder.
 
 ## Train and Test
 To train a new model, simply execute python train.py --lmdb_paths {train_path_list} --cuda. If you need to set other parameters, explore train.py for details.
