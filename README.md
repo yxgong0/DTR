@@ -1,5 +1,5 @@
 # Deformable Text Recognition
-This software implements the Deformable Convolutional Recurrent Neural Network, a combination of of Convolutional Recurrent Neural Network, Deformable Convolutional Networks and Residual Blocks. Some of the codes are from [crnn.pytorch](https://github.com/meijieru/crnn.pytorch) and [Deformable-ConvNets](https://github.com/msracver/Deformable-ConvNets). For details, please refer to our paper https://arxiv.org/abs/1908.10998.
+This software implements the Deformable Convolutional Recurrent Neural Network, a combination of of Convolutional Recurrent Neural Network, Deformable Convolutional Networks and Residual Blocks. Some of the codes are from [crnn.pytorch](https://github.com/meijieru/crnn.pytorch) and [Deformable-ConvNets](https://github.com/msracver/Deformable-ConvNets). For details, please refer to [our paper](https://arxiv.org/abs/1908.10998).
 
 ## Requirements
 * [Python 3.6](https://www.python.org/)
