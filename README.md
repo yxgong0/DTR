@@ -1,5 +1,5 @@
 # Deformable Text Recognition
-This software implements the Deformable Convolutional Recurrent Neural Network, a combination of of Convolutional Recurrent Neural Network, Deformable Convolutional Networks and Residual Blocks. Some of the codes are from [crnn.pytorch](https://github.com/meijieru/crnn.pytorch) and [Deformable-ConvNets](https://github.com/msracver/Deformable-ConvNets). For details, please refer to [our paper](https://arxiv.org/abs/1908.10998).
+This software implements the Deformable Convolutional Recurrent Neural Network, a combination of of Convolutional Recurrent Neural Network, Deformable Convolutional Networks and Residual Blocks. Some of the codes are from [crnn.pytorch](https://github.com/meijieru/crnn.pytorch) and [Deformable-ConvNets](https://github.com/msracver/Deformable-ConvNets). For details, please refer to [our paper](https://ieeexplore.ieee.org/abstract/document/9064428).
 
 ## Requirements
 * [Python 3.6](https://www.python.org/)
@@ -30,11 +30,11 @@ To train a new model, simply execute python train.py --lmdb_paths {train_path_li
 To test a trained model, you need to explore and execute eval.py.
 
 ## Citation
-    @misc{deng2019focusenhanced,
-          title={Focus-Enhanced Scene Text Recognition with Deformable Convolutions},
-          author={Linjie Deng and Yanxiang Gong and Xinchen Lu and Xin Yi and Zheng Ma and Mei Xie},
-          year={2019},
-          eprint={1908.10998},
-          archivePrefix={arXiv},
-          primaryClass={cs.CV}
+    @inproceedings{deng2019focus,
+      title={Focus-Enhanced Scene Text Recognition with Deformable Convolutions},
+      author={Deng, Linjie and Gong, Yanxiang and Lu, Xinchen and Yi, Xin and Ma, Zheng and Xie, Mei},
+      booktitle={2019 IEEE 5th International Conference on Computer and Communications (ICCC)},
+      pages={1685--1689},
+      year={2019},
+      organization={IEEE}
     }
